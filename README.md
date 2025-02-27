@@ -1,2 +1,2 @@
-# A1-portifolio-estudo
- Estudo e criação de um portifolio
+# Estudando o Desenvolvimento Web
+ Estudo e criação de um portifolio e etc
