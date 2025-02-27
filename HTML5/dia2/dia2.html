@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_nessesssario.ico" type="image/x-icon">
+    <title>Dia 2/15</title>
+</head>
+<body>
+    <h1>Dia 2: Tabelas, Formularios e listas</h1>
+    <h2>Listas</h2>
+    <p>Listas seguem certos tipos de organização.</p>
+    <h3>Tipos de Listas:</h3>
+    <p>Existem listas ordenada e nao ordenadas</p>
+    <p>As ordenadas tem o pré-fixo, que pode ser um numero, um circulo preto, um quadrado, uma circunferencia, e um quadrado preto</p>
+    <h3>Listas ordenadas</h3>
+    <p>Elas tem types que são: A, 1, a, I, </p>
+    <ol type="1">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    <ol type="A">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    <ol type="a">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    <ol type="I">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    <h3>Listas não ordenas</h3>
+    <p>Elas tem types que são: disc, cricle e square</p>
+    <ul type="disc">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+    <ul type="circle">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+    <ul type="square">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+    <h3>Entretanto esses types é preferivel ser mudado com CSS</h3>
+    <p>É aconselhavel usar o exemplo abaixo</p>
+    <pre>
+        <code>
+            &lt;ul style="list-style-type: square;"&gt; &lt;/ul&gt;
+        </code>
+    </pre>
+    <h2>Tabelas</h2>
+    <p>Não é dificl fazer uma tabela, elas usam somente 4 tags com abertura e fechamento, &lt;table&gt; para criar uma tabela &lt;tr&gt; para adicionar linhas &lt;td&gt; para adicionar colunas &lt;th&gt;para adicionar cabeçalhos na tabela</p>
+    <h3>Exemplos:</h3>
+    <h4>Tabela:</h4>
+    <table>
+        <th>Cabeçalho 1</th>
+        <th>Cabeçalho 2</th>
+        <th>Cabeçalho 3</th>
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td>Item 3</td>
+        </tr>
+        <tr>
+            <td>Item 4</td>
+            <td>Item 5</td>
+            <td>Item 6</td>
+        </tr>
+    </table>
+    <h2>Formulario</h2>
+    <h3>Exemplo de formulario:</h3>
+    <h4>Formulario de contato</h4>
+    <form action="HTML5\dia2\formulariooo.html" method="get"> <!--Por algum motivo nao funciona no momento me falta conhecimento para reconhecer o erro que esta dando aqui-->
+        <label for="nome">Seu nome Completo: </label>
+        <input type="text" name="nome" id="nome"> <br>
+        <label for="email">Seu email:</label>
+        <input type="email" name="email" id="email"> <br>
+        <label for="tel">Numero de celular: </label>
+        <input type="tel" name="celular" id="tel"> <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
